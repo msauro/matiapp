@@ -1,27 +1,27 @@
-package com.example.matiapp.list
+package com.example.matiapp.ui.positions
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.matiapp.databinding.FragmentHeroesBinding
+import com.example.matiapp.databinding.FragmentPositionsBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class HeroFragment : Fragment() {
+class PositionsFragment : Fragment() {
 
     //private val listViewModel by viewModels<HeroViewModel> () //instancio el VM
     //private lateinit var adapter:HeroAdapter
 
-    private var _binding: FragmentHeroesBinding? = null
+    private var _binding: FragmentPositionsBinding? = null
     private val binding get () = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentHeroesBinding.inflate(layoutInflater, container, false)
+        _binding = FragmentPositionsBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 

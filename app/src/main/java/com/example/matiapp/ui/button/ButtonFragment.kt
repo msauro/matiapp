@@ -1,4 +1,4 @@
-package com.example.matiapp.button
+package com.example.matiapp.ui.button
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -20,18 +20,17 @@ class ButtonFragment : Fragment() {
     ): View {
         // Inflate the layout for this fragment
         _binding = FragmentButtonBinding.inflate(layoutInflater, container, false)
-        btnPressed()
+        shieldPressed()
         return binding.root
 
     }
 
-    private fun btnPressed() {
-        binding.btnButton.setOnClickListener{
-            Toast.makeText(context,"APRETADO",Toast.LENGTH_SHORT).show()
+    private fun shieldPressed() {
+        binding.imageView.setOnClickListener{
+            Toast.makeText(context,"VAMOS NEWELLS!",Toast.LENGTH_SHORT).show()
+
         }
     }
-
-
 
 
 }

@@ -1,22 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".button.ButtonFragment"
-    android:background="#888888">
+    tools:context=".ui.button.ButtonFragment"
+    android:background="#B71C1C">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/tvTitleBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BOTÓN" />
-    <Button
-        android:id="@+id/btnButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pulsame"
-        android:layout_gravity="center"/>
+        android:layout_marginBottom="297dp"
+        android:text="SELECCIONE SU EQUIPO"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</FrameLayout>
+<!--    <Button-->
+<!--        android:id="@+id/btnButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="Pulsame"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView" />-->
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:contentDescription="@string/newells"
+        android:src="@drawable/newells"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton"-->
+<!--        android:layout_width="100sp"-->
+<!--        android:layout_height="100sp"-->
+<!--        android:contentDescription="@string/newells"-->
+<!--        android:src="@drawable/newells"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvTitleBtn" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

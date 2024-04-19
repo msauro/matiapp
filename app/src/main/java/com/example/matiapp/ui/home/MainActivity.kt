@@ -1,4 +1,4 @@
-package com.example.matiapp
+package com.example.matiapp.ui.home
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -8,6 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
+import com.example.matiapp.R
 import com.example.matiapp.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
