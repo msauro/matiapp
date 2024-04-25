@@ -19,5 +19,14 @@
         android:id="@+id/teamsFragment"
         android:name="com.example.matiapp.ui.teams.TeamsFragment"
         android:label="fragment_teams"
-        tools:layout="@layout/fragment_teams" />
+        tools:layout="@layout/fragment_teams" >
+        <action
+            android:id="@+id/action_teamsFragment_to_teamDetailActivity"
+            app:destination="@id/teamDetailActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/teamDetailActivity"
+        android:name="com.example.matiapp.ui.detail.TeamDetailActivity"
+        android:label="activity_team_detail"
+        tools:layout="@layout/activity_team_detail" />
 </navigation>

@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/listFragment"
-        android:title="@string/list"
+        android:title="@string/teams"
         android:icon="@drawable/ic_button"/>
     <item
         android:id="@+id/buttonFragment"
-        android:title="@string/button"
+        android:title="@string/order"
         android:icon="@drawable/ic_list"/>
     <item
     android:id="@+id/teamsFragment"
-    android:title="@string/teams"
+    android:title="@string/list"
     android:icon="@drawable/ic_list"/>
 </menu>

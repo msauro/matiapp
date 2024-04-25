@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">MatiApp</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="button">Botón</string>
-    <string name="list">Listado</string>
+    <string name="order">Ordenar</string>
+    <string name="list">Años en primera</string>
     <string name="teams">Teams</string>
-<!--    TEAMS-->
+    <!--    TEAMS-->
     <string name="newells">Newell\'s</string>
     <string name="lanus">Lanús</string>
     <string name="racing">Racing</string>
